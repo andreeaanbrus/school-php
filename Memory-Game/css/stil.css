@@ -1,0 +1,163 @@
+@import url(http://fonts.googleapis.com/css?family=Raleway|Lora);
+#container{
+    background-color:#B4E8ED;
+    width: 750px;
+    height: 400px;
+    margin: auto;
+    border-radius: 10px;
+}
+
+table{
+    margin:auto;
+    float:  left;
+}
+
+.center{
+    text-align: center;
+}
+
+.buton{
+    margin:50px 0px auto;
+    font-family: Raleway;
+    border-radius: 10px;
+}
+.buton2{
+    margin: 100px auto auto;
+    font-family: Raleway;
+    border-radius: 10px;
+    text-size: 50px;
+    width: 100px;
+    height: 60px;
+}
+.menu{
+    text-align: center;
+    width: 500px;
+    height: 50px;
+    margin:auto;
+    border-radius: 10px;
+    background-color: #8AC6B0;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+}
+.menu ul{
+    
+    height: auto;
+    padding: 8px 0px;
+    list-style-type: none;
+    padding: 0px;
+}
+.menu ul li{
+    margin-top:10px;
+    margin-bottom: 10px;
+    margin-left:  auto;
+    margin-right: auto;
+    float: left;
+    display: inline;
+    border-right: 1px solid;
+    padding: 8px;
+    font-family: Raleway;
+    color: #3F504A;
+}
+#scoruri{
+    float: right;
+    text-align:center;
+    font-family: Raleway;
+    border-radius: 10px;
+    border: 2px black;
+    padding: 10px;
+}
+#scoruri li{
+    list-style-type: none;
+}
+.menu ul li a{
+    transition: 0.3s ease;
+    text-decoration: none;
+     border-top: 4px solid #ACE4D0;
+  border-bottom: 4px solid #ACE4D0;
+}
+.menu ul li a:hover{
+     border-top: 3px solid #ffffff;
+     border-bottom: 3px solid #ffffff; 
+     padding: 6px 0; 
+}
+h1{
+    color: #376A6F;
+    text-align: center;
+    font-family: 'Lora', serif;	
+}
+.clear{
+    clear: both;
+}
+h2{
+    text-align:center;
+    font-family: Lora;
+}
+.align-center{
+    text-align: center;
+    clear: both;
+}
+.align-center input{
+    width:50%;
+    clear: both;
+}
+td img
+{
+    width: 120px;
+    height: 80px;
+}
+td{
+    font-size: 20px;
+    font-family: Lora;
+}
+input[type=text]
+{
+    padding: 5px;
+    border-radius: 5px;
+}
+input[type=password]
+{
+    padding: 5px;
+    border-radius: 5px;
+}
+input[type=submit]
+{
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    font-family: Lora;
+}
+.eroare{
+    width: 150px;
+    height: 25px;
+    padding: 10px;
+    border: solid 2px #f00;
+    background-color: #F5A9A9;
+    color: red;
+    margin: 10px auto;
+    -webkit-animation-name: opc;
+    -webkit-animation-delay: 2s;
+    -webkit-animation-duration: 4s;
+    -webkit-animation-fill-mode: forwards;
+}
+
+.succes{
+    width: 150px;
+    height: 25px;
+    padding: 10px;
+    border: solid 2px green;
+    background-color: #BCF5A9;
+    color: green;
+    margin: 10px auto;
+    -webkit-animation-name: opc;
+    -webkit-animation-delay: 2s;
+    -webkit-animation-duration: 4s;
+    -webkit-animation-fill-mode: forwards;
+}
+
+@keyframes opc
+{
+    from{ opacity: 1; }
+    to{ opacity: 0; }
+    
+    from{ height: 25px; }
+    to{ height: 0px; }
+}
