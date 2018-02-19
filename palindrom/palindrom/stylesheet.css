@@ -1,0 +1,44 @@
+.align-center
+{
+    text-align: center;
+    margin: auto;
+    padding: 10px;
+}
+#container
+{
+    background: linear-gradient(#fdfdfd, #3dbfeb);
+    background-color: #3dbfeb;
+    margin: 100px auto;
+    width: 700px;
+    height: 200px;
+    border-radius: 15px;
+    font-size: 20px;
+    font-family:"Arial";
+}
+#container1
+{
+    font-family: "Arial";
+    background-color: #3dbfeb;
+    margin:50px auto;
+    width:500px;
+    height: 100px;
+    text-align: center;
+    font-family: serif;
+    font-size: 20px;
+    border-radius:30px;
+    border: 2px medium;
+    
+}
+h1
+{
+    text-align: center;
+    font-size: 40px;
+    color: #73b3f9;
+    font-weight: bold;
+    
+}
+a
+{
+    font-size:20px;
+    color: #166a74;
+}
